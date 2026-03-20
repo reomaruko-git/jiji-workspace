@@ -1,40 +1,21 @@
 # TOOLS.md - Local Notes
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+## Web検索
+- **SerpApi** を使用（Google検索ラッパー）
+- 日本語対応あり
+- 月100回無料
+- 呼び出し方: `web_fetch("https://serpapi.com/search.json?q=検索語&api_key=SERPAPI_KEY&gl=jp&hl=ja&num=5")`
+- APIキー: `f478611ba8ccb960878f5ee32995781e4ada6ae4120d8441e876234a11a4d497`
 
-## What Goes Here
+## Luce監視
+- luceユーザーのプロセス: `ps aux | grep auto_trader`
+- ログ（同期済み）: `/Users/openclaw/.openclaw/workspace/luce_auto_trader.log`
+- ポジション（同期済み）: `/Users/openclaw/.openclaw/workspace/luce_positions.json`
+- 統計（同期済み）: `/Users/openclaw/.openclaw/workspace/luce_trade_stats.json`
+- 5分ごと自動同期: `/usr/local/bin/luce_sync.sh`
 
-Things like:
-
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
-
-## Examples
-
-```markdown
-### Cameras
-
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
-
-### SSH
-
-- home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
-```
-
-## Why Separate?
-
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
-
----
-
-Add whatever helps you do your job. This is your cheat sheet.
+## インフラ
+- Mac mini（adminnoMac-mini）
+- openclawユーザー: OpenClaw Gateway
+- luceユーザー: FX Trade Luce
+- LaunchDaemon: `/Library/LaunchDaemons/com.cathackstudio.fx-luce.plist`
