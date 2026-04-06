@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "active": true,
+    "pair": "USD/JPY",
+    "direction": "BUY",
+    "entry_price": 159.626,
+    "signal_price": 159.62,
+    "stop_loss": 159.182,
+    "take_profit": 161.448,
+    "strategy": "逆H&S 4h",
+    "entry_time": "2026-04-03T22:00:10.585504+09:00",
+    "breakeven_done": false,
+    "trade_id": "131"
+  },
+  {
+    "active": true,
+    "pair": "USD/JPY",
+    "direction": "BUY",
+    "entry_price": 159.614,
+    "signal_price": 159.62,
+    "stop_loss": 159.182,
+    "take_profit": 161.448,
+    "strategy": "逆H&S 4h",
+    "entry_time": "2026-04-03T22:05:12.085223+09:00",
+    "breakeven_done": false,
+    "trade_id": "135"
+  }
+]
