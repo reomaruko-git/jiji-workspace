@@ -1,3 +1,5 @@
+{"id": 135, "instrument": "USD/JPY", "direction": "BUY", "entry": 159.614, "close": 159.181, "pips": -43.3, "pl_jpy": -8660, "date": "2026-04-07", "close_time": "2026-04-07 22:34"}
+{"id": 131, "instrument": "USD/JPY", "direction": "BUY", "entry": 159.626, "close": 159.181, "pips": -44.5, "pl_jpy": -8900, "date": "2026-04-07", "close_time": "2026-04-07 22:34"}
 {"id": 121, "instrument": "AUD/JPY", "direction": "BUY", "entry": 110.561, "close": 110.298, "pips": -26.3, "pl_jpy": -5260, "date": "2026-03-26", "close_time": "2026-03-26 12:00"}
 {"id": 117, "instrument": "AUD/JPY", "direction": "BUY", "entry": 110.712, "close": 110.298, "pips": -41.4, "pl_jpy": -8280, "date": "2026-03-26", "close_time": "2026-03-26 12:00"}
 {"id": 109, "instrument": "USD/JPY", "direction": "BUY", "entry": 159.386, "close": 158.617, "pips": -76.9, "pl_jpy": -15380, "date": "2026-03-23", "close_time": "2026-03-23 11:06"}
